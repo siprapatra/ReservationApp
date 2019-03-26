@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Custom Button should render the button 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "blue",
+      "borderColor": "black",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "height": 50,
+      "justifyContent": "center",
+      "marginBottom": 20,
+      "marginHorizontal": 10,
+      "marginTop": 10,
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 17,
+      }
+    }
+  >
+    My Button
+  </Text>
+</View>
+`;
+
+exports[`Test for Custom Button should render the button without props 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "blue",
+      "borderColor": "black",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "height": 50,
+      "justifyContent": "center",
+      "marginBottom": 20,
+      "marginHorizontal": 10,
+      "marginTop": 10,
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 17,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;

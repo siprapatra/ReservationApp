@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Custom textinput should render the textinput 1`] = `
+<TextInput
+  allowFontScaling={true}
+  onChangeText={[Function]}
+  placeholder="Enter your arrival date"
+  rejectResponderTermination={true}
+  style={
+    Object {
+      "borderColor": "black",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "color": "black",
+      "fontSize": 17,
+      "height": 50,
+      "margin": 10,
+      "padding": 10,
+    }
+  }
+  underlineColorAndroid="transparent"
+  value=""
+/>
+`;
+
+exports[`Test for Custom textinput should render the textinput without props 1`] = `
+<TextInput
+  allowFontScaling={true}
+  onChangeText={[Function]}
+  placeholder=""
+  rejectResponderTermination={true}
+  style={
+    Object {
+      "borderColor": "black",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "color": "black",
+      "fontSize": 17,
+      "height": 50,
+      "margin": 10,
+      "padding": 10,
+    }
+  }
+  underlineColorAndroid="transparent"
+  value=""
+/>
+`;
